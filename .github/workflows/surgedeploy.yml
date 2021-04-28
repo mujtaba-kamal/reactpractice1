@@ -35,7 +35,7 @@ jobs:
       
 
       - name: Install build
-        run: npm run build 
+        run: npm run-script build 
 
       - name: Install Surge
         run: npm install -g surge
