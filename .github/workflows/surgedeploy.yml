@@ -29,7 +29,7 @@ jobs:
         uses: actions/setup-node@v2.1.5
         
       - name: Install build
-        run: npm build install
+        run: npm run build 
         
       - name: deploy to surge
         run: surge ./build reactpracticewithsurge.surge.sh {{b725c9cda8d91539a4b171d28e941c5f}}
