@@ -30,4 +30,4 @@ jobs:
 
       # Deploy to the defined URL using the token
       - name: Deploy to surge
-        run: surge ./build URL_TO_DEPLOY_TO --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build http://reactpracticewithsurge.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
