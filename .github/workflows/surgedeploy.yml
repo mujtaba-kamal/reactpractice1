@@ -31,6 +31,11 @@ jobs:
         # Ykjkarn command
         cmd: npm install # npm install/ yarn install
     
+    - name: react scripts
+      run: npm install react-scripts 
+
+
+
     - name: Creating build
       run: yarn build
     
