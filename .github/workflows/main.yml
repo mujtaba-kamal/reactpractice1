@@ -37,7 +37,7 @@ jobs:
         run: sudo yarn build
         
       - name: installing surge
-        run: npm install -g surge
+        run: sudo npm install -g surge
         
       - name: Running surge
         run: surge ./build afterlonglonglong.surge.sh --token ${{secrets.SURGE_TOKEN}}
