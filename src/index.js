@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App prop1='Surge' prop2='Github Actions and lots of useless efforts and time ;) ' />
+    <App prop1='Surge' prop2='Github Actions CI/CD) ' />
 
 
 
